@@ -1,0 +1,107 @@
+.contact{
+    background-color: #f1f1f1;
+    
+    }
+    
+     .form-group {
+      margin-bottom: 30px;
+    }
+   
+  
+    #submitbutton{
+      background-color: black !important;
+      width: 100%;
+      font-size: 25px;
+     
+      border: none;
+     
+    }
+    #submitbutton:hover{
+background-color: #c70039 !important;
+animation:zoomIn;
+    }
+
+
+    
+    .form-control:focus {
+            border-color:   #F89D6F  ;
+    box-shadow:none !important;
+    outline: none;
+    
+    } 
+    #name, #email, #phone, #subject, #message {
+    border-radius: 0 !important;
+    font-style: italic;
+    }
+
+    .divider {
+      width: 90px;
+      height: 3px;
+      background: #C70039;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    
+    }
+
+ 
+     /*===================*/
+  /* Footer Slider
+
+
+    #containertest{
+      width: 990px;
+    }
+
+    @media (max-width: 767px) {
+      #containertest{
+          max-width: 375px !important;
+          padding: 0 !important;
+      }
+  }
+  
+  /*===================*/
+
+ /*===================*/
+  /* PULSE GROW
+  /*===================*/
+
+  
+  @-webkit-keyframes pulse-grow-on-hover {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+  @keyframes pulse-grow-on-hover {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+
+
+  .pulse-grow-on-hover {
+    background-color: #FFA500;
+    font-weight: bold;
+    color: black;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+
+  }
+  .pulse-grow-on-hover:hover, .pulse-grow-on-hover:focus, .pulse-grow-on-hover:active {
+    -webkit-animation-name: pulse-grow-on-hover;
+    animation-name: pulse-grow-on-hover;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    background-color: #FFA500;
+    color: black;
+  }

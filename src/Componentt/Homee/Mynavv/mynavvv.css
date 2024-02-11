@@ -1,0 +1,117 @@
+#HMnav {
+  background-color:#212529;
+
+}
+
+#HMnav .navbar-toggler:focus {
+
+box-shadow:none !important;
+outline: none;
+
+} 
+
+#HMnav .navbar-toggler {
+  font-size: 14px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #FFA500;
+ font-family: 'Ubuntu', sans-serif;
+}
+
+
+#HMnav .navbar-nav .nav-item .nav-link {
+  font-size: 88%;
+  font-weight: 400;
+  padding: 0.72em 0;
+  letter-spacing: 1px;
+  color: white;
+ font-family: 'Ubuntu', sans-serif;
+}
+
+#HMnav .navbar-nav .nav-item .nav-link.active, #HMnav .navbar-nav .nav-item .nav-link:hover {
+  color: #FFA500;
+}
+
+ .dropdown-menu {
+  background-color: #212529;
+  opacity: 1.8;
+ 
+
+ 
+
+ }
+
+.dropdown-item{
+color: white;
+ font-size: 88%;
+font-weight: 400;
+letter-spacing: 1px;
+
+font-family: 'Ubuntu', sans-serif;
+}
+.dropdown-item:hover{
+color: #FFA500;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+@media (min-width: 992px) {
+
+  #HMnav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+
+
+  #HMnav .navbar-brand{
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 0px;
+    margin: 0px;
+  
+   }
+
+   #HMnav .navbar-toggler {
+    font-size: 3px;
+    padding: 5px;
+  }
+  #HMnav .navbar-nav .nav-item .nav-link {
+    padding: 0.2em 1em !important;
+  }
+  #HMnav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+  #HMnav.navbar-shrink .navbar-brand{
+    padding: 12px 0;
+  }
+}
+@media (max-width: 767px){
+  #HMnav .navbar-nav .nav-item .nav-link {
+    padding: 0.4em 1em !important;
+  }
+
+
+ 
+
+
+  
+    }
+   
+
+ 

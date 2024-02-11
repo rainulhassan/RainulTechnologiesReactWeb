@@ -1,0 +1,60 @@
+
+  
+    #services .service-item {
+      margin-bottom: 5%;
+    
+    }
+    
+    #services .service-icon {
+      background: #C70039;
+      border-radius: 50%;
+      transition: 0.5s;
+      border: 1px solid #C70039;
+      width: 70px;
+      height: 70px;
+      margin-left: 40%;
+      padding: 20px 0;
+      font-size: 18px;
+    
+    }
+    
+    #services .service-icon i {
+      color: #fff;
+      font-size: 30px;
+    }
+    
+    #services .service-item:hover .service-icon {
+      background: #fff;
+    }
+    
+    #services .service-item:hover .service-icon i {
+      color: #C70039;
+    }
+
+    .divider {
+      width: 90px;
+      height: 3px;
+      background: #C70039;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    
+    }
+   
+
+    #myskills{
+      font-size:100px;
+      padding:40px
+      
+      }
+      #myskills:hover{
+        color: #C70039;
+      }
+      @media (max-width: 767px){
+      
+      #myskills{
+      font-size:50px;
+      padding:15px;
+      }
+      
+      }
+      
